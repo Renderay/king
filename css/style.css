@@ -1,40 +1,83 @@
+
+
+
+body {
+  background-image: url('css/moon.png') 50% 50% no-repeat ;
+    background-color:#141b23;
+  color:white;
+
+}
+
+div {
+  display: block;
+}
+
+
+#header {
+margin-top: -60px;
+height: 40px;
+width:490px;
+text-align: left;
+
+
+}
+
+.wrapper {
+  margin-top: 170px;
+margin-left: 100px;
+width: 600px;
+color: grey;
+}
+
+.li-wrapper {
+margin-top:130px;
+margin-left: 20px;
+  color:grey;
+}
+
+
+
+ul, li {
+  padding-right: 15px;
+display: inline-block;
+list-style: none;
+
+}
+
+
+
+h1 {
+font-size: 15pt;
+color: white;
+}
+
+p {
+  font-size: 10pt;
+
+}
+
+.footer {
+  color:grey;
+position:absolute;
+left:48px;
+bottom:0;
+width: 100%;
+height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
 @font-face {
     font-family: Franklin Gothic Medium; /* Имя шрифта */
-    src: url(css/font/framd.ttf); /* Путь к файлу со шрифтом */
+    src: url('css/font/framd.ttf'); /* Путь к файлу со шрифтом */
    }
    P {
     font-family: Franklin Gothic Medium;
    }
-
-body {
-
-}
-
-header {
-
-}
-
-.menu {
-
-}
-
-li {
-text-decoration: none;
-}
-
-.content {
-text-align: left;
-}
-
-
-h1 {
-
-}
-
-p {
-
-}
-
-footer {
-
-}
