@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Franklin Gothic Medium; /* Имя шрифта */
+    src: url(css/font/framd.ttf); /* Путь к файлу со шрифтом */
+   }
+   P {
+    font-family: Franklin Gothic Medium;
+   }
+
+body {
+
+}
+
+header {
+
+}
+
+.menu {
+
+}
+
+li {
+text-decoration: none;
+}
+
+.content {
+text-align: left;
+}
+
+
+h1 {
+
+}
+
+p {
+
+}
+
+footer {
+
+}
