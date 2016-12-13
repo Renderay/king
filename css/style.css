@@ -1,11 +1,12 @@
-
+html {
+  height:100%;
+}
 
 
 body {
-  background-image: url('css/moon.png') 50% 50% no-repeat ;
-    background-color:#141b23;
-  color:white;
-
+color:white;
+background-image: url('css/moon.jpg') no-repeat ;
+background-color:#141b23;
 }
 
 div {
@@ -18,8 +19,6 @@ margin-top: -60px;
 height: 40px;
 width:490px;
 text-align: left;
-
-
 }
 
 .wrapper {
@@ -41,7 +40,6 @@ ul, li {
   padding-right: 15px;
 display: inline-block;
 list-style: none;
-
 }
 
 
@@ -61,23 +59,14 @@ p {
 position:absolute;
 left:48px;
 bottom:0;
-width: 100%;
+
 height: 90px;
 }
 
-
-
-
-
-
-
-
-
-
 @font-face {
-    font-family: Franklin Gothic Medium; /* Имя шрифта */
-    src: url('css/font/framd.ttf'); /* Путь к файлу со шрифтом */
-   }
-   P {
-    font-family: Franklin Gothic Medium;
-   }
+font-family: Franklin Gothic Medium;
+src: url('css/font/framd.ttf');
+}
+p {
+font-family: Franklin Gothic Medium;
+}
