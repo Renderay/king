@@ -1,12 +1,22 @@
-html {
-  height:100%;
+@font-face {
+font-family: Franklin Gothic Medium;
+src: url('css/font/framd.ttf');
 }
 
+html {
+  font-family: Franklin Gothic Medium;
+  height:100%;
+  width: 100%;
+}
 
 body {
+  width: 100%;
+  height: 100%;
 color:white;
-background-image: url('css/moon.jpg') no-repeat ;
+background-image: url('css/images/moon.jpg') no-repeat;
 background-color:#141b23;
+
+
 }
 
 div {
@@ -14,34 +24,11 @@ div {
 }
 
 
-#header {
-margin-top: -60px;
-height: 40px;
-width:490px;
-text-align: left;
-}
-
-.wrapper {
-  margin-top: 170px;
-margin-left: 100px;
-width: 600px;
-color: grey;
-}
-
-.li-wrapper {
-margin-top:130px;
-margin-left: 20px;
-  color:grey;
-}
-
-
-
 ul, li {
   padding-right: 15px;
 display: inline-block;
 list-style: none;
 }
-
 
 
 h1 {
@@ -71,20 +58,37 @@ a:active {
 color:black;
 }
 
+.container {
+width: 100%;
+height: 100%;
+background-image: url('css/images/moon.jpg') no-repeat;
+}
+
+
+#header {
+margin-top: -60px;
+height: 40px;
+width:490px;
+text-align: left;
+}
+
+.wrapper {
+margin-top: 170px;
+margin-left: 100px;
+width: 600px;
+color: grey;
+}
+
+.li-wrapper {
+margin-top:130px;
+margin-left: 20px;
+color:grey;
+}
 
 .footer {
-  color:grey;
+color:grey;
 position:absolute;
-left:48px;
+left:60px;
 bottom:0;
-
 height: 90px;
-}
-
-@font-face {
-font-family: Franklin Gothic Medium;
-src: url('css/font/framd.ttf');
-}
-p {
-font-family: Franklin Gothic Medium;
 }
