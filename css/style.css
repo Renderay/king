@@ -13,10 +13,7 @@ body {
   width: 100%;
   height: 100%;
 color:white;
-background-image: url('css/images/moon.jpg') no-repeat;
 background-color:#141b23;
-
-
 }
 
 div {
@@ -61,7 +58,10 @@ color:black;
 .container {
 width: 100%;
 height: 100%;
-background-image: url('css/images/moon.jpg') no-repeat;
+background-image: url('images/moon.png') ;
+background-repeat:no-repeat;
+background-position:right top;
+background-size:1150px 800px;
 }
 
 
@@ -71,6 +71,7 @@ height: 40px;
 width:490px;
 text-align: left;
 }
+
 
 .wrapper {
 margin-top: 170px;
